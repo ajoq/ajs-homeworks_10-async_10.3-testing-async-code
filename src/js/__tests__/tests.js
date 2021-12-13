@@ -1,6 +1,6 @@
 import GameSavingLoader from '../GameSavingLoader';
 
-test('GameSavingLoader', () => {
+test('GameSavingLoader', async () => {
   const expected = {
     id: 9,
     created: 1546300800,
@@ -11,8 +11,6 @@ test('GameSavingLoader', () => {
       points: 2000,
     },
   };
-  return GameSavingLoader.load().then((data) => {
-    const received = JSON.parse(data);
-    expect(received).toEqual(expected);
-  });
+  const data = await GameSavingLoader.load();
+  expect(data).toEqual(expected);
 });
