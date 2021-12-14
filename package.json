@@ -1,5 +1,5 @@
 {
-  "name": "10-async_10.1-promises",
+  "name": "10-async_10.3-testing-async-code",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajoq/ajs-homeworks_10-async_10.1-promises.git"
+    "url": "git+https://github.com/ajoq/ajs-homeworks_10-async_10.3-testing-async-code.git"
   },
   "author": "Konstantin Beloglazov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ajoq/ajs-homeworks_10-async_10.1-promises/issues"
+    "url": "https://github.com/ajoq/ajs-homeworks_10-async_10.3-testing-async-code/issues"
   },
-  "homepage": "https://github.com/ajoq/ajs-homeworks_10-async_10.1-promises#readme",
+  "homepage": "https://github.com/ajoq/ajs-homeworks_10-async_10.3-testing-async-code#readme",
   "devDependencies": {
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.8",
